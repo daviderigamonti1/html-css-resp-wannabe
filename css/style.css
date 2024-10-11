@@ -137,3 +137,23 @@ img {
         align-items: stretch;
     }
  }
+
+ @media screen and (max-width:576px) {
+    .row {
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .row .col {
+        width: 100%;
+    }
+    .why-us {
+        background-color: black;
+        margin-bottom: 0;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+    }
+    .steps {
+        margin-bottom: 0;
+    }
+ }
